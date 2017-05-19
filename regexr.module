@@ -1,0 +1,17 @@
+<?php
+
+/**
+ * Implements hook_theme()
+ */
+function regexr_theme() {
+  return [
+    'regexr_index' => [
+      'variables' => [ 'title' => NULL, 'contents' => NULL ],
+    ],
+  ];
+}
+
+
+function regexr_page_attachments(array &$attachments) {
+  $attachments['#attached']['library'][] = 'regexr/regexr-lib';
+}

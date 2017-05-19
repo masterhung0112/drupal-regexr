@@ -1,0 +1,67 @@
+{#
+/**
+ * @file
+ * Default theme implementation for regexr module
+ * 
+ * Available variables:
+ * - title: Top level node title.
+ * - head: Header tags.
+ *
+ * @ingroup themeable
+ */
+#}
+<div class="top">
+	<h1 class="icon regexr-logo">&#xE600;</h1><h1 class="regexr-text">RegExr</h1><span class="version regexr-text">v2.1<span class="beta-banner hidden">BETA</span></span>
+	<div class="links">
+		by <a href="" target="_blank">gskinner</a>
+		<a href="./v1" target="_blank">RegExr v1</a>
+		<a href="http://github.com/gskinner/regexr/" target="_blank">Github</a>
+		<a class="video-link">Tutorial</a>
+	</div>
+</div>
+
+<div class="lib hidden" id="libview">
+	<div class="title">
+		<span class="button noicon" data-icon="&#xE225;">Library</span>
+	</div>
+
+	<div class="community hidden">
+
+	</div>
+
+	<div class="list" tabindex="0">
+		<div class="renderer item"><span class="icon">geticon()</span>getlabel()<span class="detail">getDetail()</span></div>
+	</div>
+
+	<div class="content">
+		<b>RegExr is an online tool to <b>learn</b>, <b>build</b>, <b>test</b> Regular expression (RegEx / RegExp).</b>
+		<hr />
+		<ul>
+			
+		</ul>
+	</div>
+</div>
+<div class="doc tools-disabled" id="docview">
+		<div class="title expr">
+			Expression
+			<ul class="buttonbar">
+				<li class="button share" data-icon="&#xE309;">share</li>
+				<li class="button save" data-icon="&#xE073;">save</li> <!-- file: E359, bookmark: E073-->
+				<li class="button flags" data-icon="&#xE267;">flags</li>
+			</ul>
+		</div>
+		<div class="editor expr"><div class="results"></div></div>
+		<div class="title tools">
+			<span>Tools</span>
+			<ul class="buttonbar right">
+				<li class="button nolabel expand" data-icon="&#xE192;" data-alticon="&#xE191;"></li>
+			</ul>
+			<ul class="buttonbar left">
+				<li class="button replace active" data-tool="replace">Replace</li>
+				<li class="button list" data-tool="list">List</li>
+				<li class="button details" data-tool="details">Details</li>
+				<li class="button explain" data-tool="explain">Explain</li>
+			</ul>
+		</div>
+</div>
+

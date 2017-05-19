@@ -1,0 +1,8 @@
+regexr.index:
+  path: '/regexr'
+  defaults:
+    _controller: '\Drupal\regexr\Controller\RegexrController::index'
+  requirements:
+    _permission: 'access content'
+  options:
+    _custom_theme: 'regexr_theme' 

@@ -1,0 +1,5 @@
+regexr-lib:
+  version: 1.x
+  css:
+    theme:
+      css/regexr.css: {}
